@@ -1,0 +1,81 @@
+/* untuk seluruh body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/*  untuk elemen form */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* untuk setiap sel tabel */
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* untuk label */
+label {
+    font-weight: bold;
+}
+
+/*untuk input text, radio, checkbox, dan select */
+input[type="text"],
+input[type="radio"],
+input[type="checkbox"],
+select {
+    width: calc(100% - 20px); /* Mengurangi lebar agar tidak mepet */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s; /* Transisi halus untuk border */
+}
+
+/*untuk input saat focus */
+input[type="text"]:focus,
+select:focus {
+    border-color: #66afe9; /* Warna border saat focus */
+    outline: none; /* Menghilangkan outline default */
+}
+
+/* untuk button */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* button saat hover */
+button:hover {
+    background-color: #218838; /* Warna button saat hover */
+}
+
+/* Menyembunyikan input radio dan checkbox untuk tata letak yang lebih bersih */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px; /* Jarak antara checkbox dan label */
+}
+
+/* Mengatur gaya untuk div hobi */
+div {
+    margin-bottom: 10px; /* Jarak antara checkbox */
+}
